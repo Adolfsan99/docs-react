@@ -11,6 +11,7 @@ Un componente es una parte de la interfaz de usuario independiente y reutilizabl
 <br>
 
 ## 🟡Componentes Funcionales
+
 Un componente funcional es una función de JavaScript que devuelve un elemento de React.
 
 <br>
@@ -58,35 +59,35 @@ En general:
 
 Los props siempre son jerárquicos y se pueden llamar como argumentos, parámetros o como atributos de un objeto.
 
-### Ejemplo: 
+#### Ejemplo: 
 ## props.nombre = object.param
 
 <br>
 <br>
 
-
-<br>
-<br>
-
 ## 🟡Estado en React
+
 Las alteraciones en las variables de props solo se podían hacer con componentes funcionales.
 
 <br>
 <br>
 
 ## 🟡Hooks
+
 Un Hook es una función especial que permite trabajar con estados para componentes funcionales, lo que facilita el trabajo con estos.
 
 <br>
 <br>
 
 ## 🟡Event Listener / Event Handler
+
 Un Event Handler es una función de JavaScript que se ejecuta cuando se produce un evento determinado. Por ejemplo, el evento onclick.
 
 <br>
 <br>
 
 ## 🟡JSX
+
 JSX es la combinación de HTML y JavaScript. JSX es opcional pero aumenta el flujo de trabajo si se utiliza.
 
 <br>
@@ -123,6 +124,7 @@ O también se puede insertar un objeto de estilo JavaScript directamente en la e
 <br>
 
 # 🟡Renderización
+
 La renderización de los elementos de React se realiza con la librería ReactDOM.
 
 ## import ReactDOM from 'react-dom';
@@ -138,12 +140,14 @@ const elemento = < h1>Hola mundo!< /h1>;
 <br>
 
 # 🟡Self-closing tags
+
 En React, se pueden utilizar etiquetas self-closing, como <img src="" />.
 
 <br>
 <br>
 
 # 🟡Variables
+
 En React, las variables se pueden utilizar dentro de las etiquetas utilizando llaves {}.
 
 ## let nombre = "El pepe";
@@ -162,6 +166,7 @@ Y métodos de strings:
 <br>
 
 # 🟡Crea un proyecto React
+
 Para crear un proyecto de React, primero necesitamos tener Node.js instalado correctamente. Luego, abrimos una carpeta en Visual Studio Code y abrimos la consola con CTRL + Ñ.
 
 Para crear un nuevo proyecto de React, ejecutamos el siguiente comando en la consola:
