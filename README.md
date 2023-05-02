@@ -84,7 +84,7 @@ Un Hook es una función especial que permite trabajar con estados para component
 
 Un Event Handler es una función de JavaScript que se ejecuta cuando se produce un evento determinado. Por ejemplo, el evento
 
-### onclick
+# onclick
 
 <br>
 <br>
