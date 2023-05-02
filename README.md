@@ -44,7 +44,7 @@ Un componente de clase es una clase de JavaScript que devuelve un elemento JSX.
 
 # 🟡Declaración de componentes y diferencias de un Componente VS elemento
 
-Los nombres de los componentes siempre deben comenzar con una letra mayúscula. Por ejemplo: Saludo
+Los nombres de los Componentes siempre deben comenzar con una letra mayúscula. Por ejemplo: Saludo
 
 Un Componente es el conjunto de varios elementos, los elementos son las etiquetas HTML y estas se pueden manipular con un identificador, en cambio un Componente es una pieza de todos estos elementos juntos, por ejemplo, un formulario es un Componente creado con div, inputs y buttons.
 
@@ -52,7 +52,7 @@ Un Componente es el conjunto de varios elementos, los elementos son las etiqueta
 
 ### Saber diferenciarlos es facil, en general:
 
-* Componentes = < Boton>
+* Componentes = < FormularioLogin>
 * elemento o etiquetas = < div>
 
 <br>
@@ -93,10 +93,7 @@ Un Event Handler es una función de JavaScript que se ejecuta cuando se produce 
 
 JSX es la combinación de HTML y JavaScript. JSX es opcional pero aumenta el flujo de trabajo si se utiliza.
 
-<br>
-<br>
-
-# 🟡Ventajas de usar JSX:
+## Ventajas de usar JSX:
 
 * Facilidad de visualización y uso
 * Solución de problemas más sencilla
@@ -176,6 +173,8 @@ También se pueden utilizar operaciones matemáticas:
 
 Y métodos de strings:
 
+<br>
+
 ## let nombre = "gino";
 ### < p>BIENVENIDO {nombre.toUpperCase()}< /p>
 
@@ -198,12 +197,6 @@ Nota: "mi-app" es el nombre del proyecto.
 
 <br>
 
-Para crear el proyecto en la carpeta actual, ejecutamos el siguiente comando en la consola:
-
-## npx create-react-app .
-
-<br>
-
 Una vez creado el proyecto, podemos iniciarlo con el siguiente comando en la consola:
 
 ## cd mi-app
@@ -211,7 +204,13 @@ Una vez creado el proyecto, podemos iniciarlo con el siguiente comando en la con
 
 <br>
 
-o simplemente:
+Para crear el proyecto en la carpeta actual, ejecutamos el siguiente comando en la consola:
+
+## npx create-react-app .
+
+<br>
+
+De hacerlo de esta manera, simplemente seria ejecutar
 
 <br>
 
