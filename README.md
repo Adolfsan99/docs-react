@@ -3,14 +3,14 @@
 <br>
 <br>
 
-## 🟡Componente
+# 🟡Componente
 
 Un componente es una parte de la interfaz de usuario independiente y reutilizable. Los componentes se pueden crear en dos formas:
 
 <br>
 <br>
 
-## 🟡Componentes Funcionales
+# 🟡Componentes Funcionales
 
 Un componente funcional es una función de JavaScript que devuelve un elemento de React.
 
@@ -26,7 +26,7 @@ return < h1>¡Hola, {
 <br>
 <br>
 
-## 🟡Componentes de Clase
+# 🟡Componentes de Clase
 
 Un componente de clase es una clase de JavaScript que devuelve un elemento JSX.
 
@@ -42,7 +42,7 @@ Un componente de clase es una clase de JavaScript que devuelve un elemento JSX.
 <br>
 
 
-## 🟡Declaración de componentes y diferencias de un Componente VS elemento
+# 🟡Declaración de componentes y diferencias de un Componente VS elemento
 
 Los nombres de los componentes siempre deben comenzar con una letra mayúscula. Por ejemplo: Saludo
 
@@ -50,39 +50,37 @@ Un Componente es el conjunto de varios elementos, los elementos son las etiqueta
 
 <br>
 
-Saber diferenciarlos es facil, en general:
+### Saber diferenciarlos es facil, en general:
 
 * Componentes = < Boton>
 * elemento o etiquetas = < div>
 
 <br>
 
-Nota: Los props siempre son jerárquicos (investiga herencia y polimorfismo) y se pueden llamar como argumentos, parámetros o como atributos de un objeto.
-
-#### Ejemplo: 
+Nota: Los props siempre son jerárquicos (investiga herencia y polimorfismo) y se pueden llamar como argumentos, parámetros o como atributos de un objeto, como por ejemplo:
 
 ## props.nombre 
 
-donde props hace referencia a un objecto y nombre a un parametro
+donde props hace referencia a un objecto y nombre a un parametro.
 
 <br>
 <br>
 
-## 🟡Estado en React
+# 🟡Estado en React
 
 Las alteraciones en las variables de props solo se podían hacer con componentes funcionales.
 
 <br>
 <br>
 
-## 🟡Hooks
+# 🟡Hooks
 
 Un Hook es una función especial que permite trabajar con estados para componentes funcionales, lo que facilita el trabajo con estos.
 
 <br>
 <br>
 
-## 🟡Event Listener / Event Handler
+# 🟡Event Listener / Event Handler
 
 Un Event Handler es una función de JavaScript que se ejecuta cuando se produce un evento determinado. Por ejemplo, el evento
 
@@ -91,14 +89,14 @@ Un Event Handler es una función de JavaScript que se ejecuta cuando se produce 
 <br>
 <br>
 
-## 🟡JSX
+# 🟡JSX
 
 JSX es la combinación de HTML y JavaScript. JSX es opcional pero aumenta el flujo de trabajo si se utiliza.
 
 <br>
 <br>
 
-## 🟡Ventajas de usar JSX:
+# 🟡Ventajas de usar JSX:
 
 * Facilidad de visualización y uso
 * Solución de problemas más sencilla
