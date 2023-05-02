@@ -46,21 +46,21 @@ Un componente de clase es una clase de JavaScript que devuelve un elemento JSX.
 
 Los nombres de los componentes siempre deben comenzar con una letra mayúscula. Por ejemplo: Saludo
 
-Los Componentes son el conjunto de varios elementos que crean un componente. Por ejemplo, las etiquetas HTML se pueden manipular con un identificador.
+Un Componente es el conjunto de varios elementos, los elementos son las etiquetas HTML se pueden manipular con un identificador, en cambio un Componente es una pieza de todos estos elementos juntos, por ejemplo, un formulario es un Componente creado con div, inputs y buttons.
 
 <br>
 
-En general:
+Saberlos diferenciar es facil, en general:
 
 * Componentes = < Boton>
 * elemento o etiquetas = < div>
 
 <br>
 
-Los props siempre son jerárquicos y se pueden llamar como argumentos, parámetros o como atributos de un objeto.
+Nota: Los props siempre son jerárquicos (investiga herencia y polimorfismo) y se pueden llamar como argumentos, parámetros o como atributos de un objeto.
 
 #### Ejemplo: 
-## props.nombre = object.param
+## props.nombre donde props hace referencia a un objecto y nombre a un parametro
 
 <br>
 <br>
@@ -141,7 +141,9 @@ const elemento = < h1>Hola mundo!< /h1>;
 
 # 🟡Self-closing tags
 
-En React, se pueden utilizar etiquetas self-closing, como <img src="" />.
+En React, se pueden utilizar etiquetas self-closing, como por ejemplo
+
+## < img src="" />.
 
 <br>
 <br>
