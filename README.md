@@ -46,7 +46,7 @@ Un componente de clase es una clase de JavaScript que devuelve un elemento JSX.
 
 Los nombres de los componentes siempre deben comenzar con una letra mayúscula. Por ejemplo: Saludo
 
-Los elementos son el conjunto de varios elementos que crean un componente. Por ejemplo, las etiquetas HTML se pueden manipular con un identificador.
+Los Componentes son el conjunto de varios elementos que crean un componente. Por ejemplo, las etiquetas HTML se pueden manipular con un identificador.
 
 <br>
 
