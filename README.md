@@ -41,7 +41,7 @@ Un componente de clase es una clase de JavaScript que devuelve un elemento JSX.
 <br>
 
 
-## 🟡Declaración de componentes y diferencias de un Componente VS elementos
+## 🟡Declaración de componentes y diferencias de un Componente VS elemento
 
 Los nombres de los componentes siempre deben comenzar con una letra mayúscula. Por ejemplo: Saludo
 
