@@ -46,11 +46,11 @@ Un componente de clase es una clase de JavaScript que devuelve un elemento JSX.
 
 Los nombres de los componentes siempre deben comenzar con una letra mayúscula. Por ejemplo: Saludo
 
-Un Componente es el conjunto de varios elementos, los elementos son las etiquetas HTML se pueden manipular con un identificador, en cambio un Componente es una pieza de todos estos elementos juntos, por ejemplo, un formulario es un Componente creado con div, inputs y buttons.
+Un Componente es el conjunto de varios elementos, los elementos son las etiquetas HTML y estas se pueden manipular con un identificador, en cambio un Componente es una pieza de todos estos elementos juntos, por ejemplo, un formulario es un Componente creado con div, inputs y buttons.
 
 <br>
 
-Saberlos diferenciar es facil, en general:
+Saber diferenciarlos es facil, en general:
 
 * Componentes = < Boton>
 * elemento o etiquetas = < div>
@@ -60,7 +60,10 @@ Saberlos diferenciar es facil, en general:
 Nota: Los props siempre son jerárquicos (investiga herencia y polimorfismo) y se pueden llamar como argumentos, parámetros o como atributos de un objeto.
 
 #### Ejemplo: 
-## props.nombre donde props hace referencia a un objecto y nombre a un parametro
+
+## props.nombre 
+
+donde props hace referencia a un objecto y nombre a un parametro
 
 <br>
 <br>
@@ -81,7 +84,9 @@ Un Hook es una función especial que permite trabajar con estados para component
 
 ## 🟡Event Listener / Event Handler
 
-Un Event Handler es una función de JavaScript que se ejecuta cuando se produce un evento determinado. Por ejemplo, el evento onclick.
+Un Event Handler es una función de JavaScript que se ejecuta cuando se produce un evento determinado. Por ejemplo, el evento
+
+### onclick
 
 <br>
 <br>
@@ -127,6 +132,8 @@ O también se puede insertar un objeto de estilo JavaScript directamente en la e
 
 La renderización de los elementos de React se realiza con la librería ReactDOM.
 
+<br>
+
 ## import ReactDOM from 'react-dom';
 
 const elemento = < h1>Hola mundo!< /h1>;
@@ -143,7 +150,9 @@ const elemento = < h1>Hola mundo!< /h1>;
 
 En React, se pueden utilizar etiquetas self-closing, como por ejemplo
 
-## < img src="" />.
+<br>
+
+## < img src="url-imagen.jpg" />.
 
 <br>
 <br>
@@ -152,17 +161,25 @@ En React, se pueden utilizar etiquetas self-closing, como por ejemplo
 
 En React, las variables se pueden utilizar dentro de las etiquetas utilizando llaves {}.
 
+<br>
+
 ## let nombre = "El pepe";
-< p>Bienvenido {nombre}< /p>
+### < p>Bienvenido {nombre}< /p>
+
+<br>
 
 También se pueden utilizar operaciones matemáticas:
 
-< p>El resultado es: {5 * 2}< /p>
+<br>
+
+## < p>El resultado es: {5 * 2}< /p>
+
+<br>
 
 Y métodos de strings:
 
 ## let nombre = "gino";
-< p>BIENVENIDO {nombre.toUpperCase()}< /p>
+### < p>BIENVENIDO {nombre.toUpperCase()}< /p>
 
 <br>
 <br>
@@ -177,11 +194,17 @@ Para crear un nuevo proyecto de React, ejecutamos el siguiente comando en la con
 
 ## npx create-react-app mi-app
 
+<br>
+
 Nota: "mi-app" es el nombre del proyecto.
+
+<br>
 
 Para crear el proyecto en la carpeta actual, ejecutamos el siguiente comando en la consola:
 
 ## npx create-react-app .
+
+<br>
 
 Una vez creado el proyecto, podemos iniciarlo con el siguiente comando en la consola:
 
