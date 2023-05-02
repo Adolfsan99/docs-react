@@ -212,7 +212,6 @@ Para crear el proyecto en la carpeta actual, ejecutamos el siguiente comando en 
 
 De hacerlo de esta manera, simplemente seria ejecutar
 
-<br>
 
 ## npm start
 
