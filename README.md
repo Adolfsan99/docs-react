@@ -51,8 +51,8 @@ Los elementos son el conjunto de varios elementos que crean un componente. Por e
 
 En general:
 
-* Etiquetas = < div>
 * Componentes = < Boton>
+* elemento o etiquetas = < div>
 
 <br>
 
