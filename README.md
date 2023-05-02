@@ -10,20 +10,6 @@ Un componente es una parte de la interfaz de usuario independiente y reutilizabl
 <br>
 <br>
 
-## 🟡Declaración de componentes
-
-Los nombres de los componentes siempre deben comenzar con una letra mayúscula. Por ejemplo: Saludo
-
-Los props siempre son jerárquicos y se pueden llamar como argumentos, parámetros o como atributos de un objeto.
-
-<br>
-
-### Ejemplo: 
-## props.nombre = object.param
-
-<br>
-<br>
-
 ## 🟡Componentes Funcionales
 Un componente funcional es una función de JavaScript que devuelve un elemento de React.
 
@@ -50,6 +36,21 @@ Un componente de clase es una clase de JavaScript que devuelve un elemento JSX.
     return < h1>¡Hola, {this.props.nombre}!< /h1>;
   }
 ## }
+
+<br>
+<br>
+
+
+## 🟡Declaración de componentes
+
+Los nombres de los componentes siempre deben comenzar con una letra mayúscula. Por ejemplo: Saludo
+
+Los props siempre son jerárquicos y se pueden llamar como argumentos, parámetros o como atributos de un objeto.
+
+<br>
+
+### Ejemplo: 
+## props.nombre = object.param
 
 <br>
 <br>
