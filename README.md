@@ -1,6 +1,7 @@
 # 📝 Documentación sobre React
 
 <br>
+Mejoras en la visualización del readme.md pronto 
 <br>
 
 # 🟡Componente
